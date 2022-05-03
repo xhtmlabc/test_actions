@@ -1,0 +1,53 @@
+-submit_data_files
+-enable_lua_debugger
+-curl_debug_log
+-monitor_parent_process <ProcessId>
+-debug_random_data
+-skip_update_server_mods
+-only_update_server_mods
+-use_session_identifier <SessionId>
+-conf_dir
+-config_dir
+-persistent_storage_root <AltPersistentStorageRoot>
+-alternate_gc
+-backup_log_period <seconds>
+-backup_log_count <count>
+-backup_logs
+-novsync
+-secondary_log_prefix <Secondary log prefix>
+-token <Token>
+-sigprefix <SignalPrefix>
+-ugc_directory <UGCDir>
+-shard <ShardName>
+-cluster <AltDontStarveTogether>
+-clouddir
+-ownerdir <AltOwnerDir>
+-ownernetid <NetId>
+-fo
+-console
+-steamnetworkingpopid <POP_ID>
+-steamnetworkserver
+-cloudserver
+-cloudserverid <string>
+-cloudservertimeout <number>
+-cloudserverreservationtimeout <number>
+-cloudserverkillafteruse
+-cloudserverinitiator <string>
+-locked
+-append_cloud_server_setting <Section> <Key> <Value>
+-cloudserver_os_bind_port
+-cloudserverenvironment <string>
+-players <Max Players 1 .. 64>
+-tick <Tick Rate 15 .. 60>
+-steam_authentication_port <Port 1024 ... 65535>
+-steam_master_server_port <Port 1024 ... 65535>
+-external_port <Port 1024 ... 65535>
+-master_port <Port 1024 ... 65535>
+-port <Port 1024 ... 65535>
+-nooverlay
+-lan
+-disabledatacollection
+-offline
+-bind_ip
+-printtextureinfo
+-nosound
